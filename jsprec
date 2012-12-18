@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Adapted from
+# https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Operator_Precedence
+
 exec cat <<EOT
 Class  Assoc   Operator(s)
 =====================================================
