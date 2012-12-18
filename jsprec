@@ -1,0 +1,26 @@
+#!/bin/sh
+
+cat <<EOT
+Class  Assoc   Operator(s)
+=====================================================
+1      L to R  . []
+       R to L  new
+2      L to R  ()
+3      n/a     ++ --
+4      R to L  ! ~ unary +/- typeof void delete
+5      L to R  * / %
+6      L to R  + -
+7      L to R  << >> >>>
+8      L to R  < <= > >= in instanceof
+9      L to R  == != === !==
+10     L to R  &
+11     L to R  ^
+12     L to R  |
+13     L to R  &&
+14     L to R  ||
+15     R to L  ?:
+16     R to L  yield
+17     R to L  = += -= *= /= %= <<= >>= >>>= &= ^= |=
+18     L to R  ,
+=====================================================
+EOT

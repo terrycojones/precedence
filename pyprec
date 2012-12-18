@@ -1,0 +1,19 @@
+#!/bin/sh
+
+cat<<'EOF'
+(exprs...), [exprs...], {key:datum...}, `exprs...`
+x[index], x[index:index], x(arguments...), x.attribute
+**
++x, -x, ~x
+*, /, //, %
++, -
+<<, >>
+&
+^
+|
+in, not in, is, is not, <, <=, >, >=, <>, !=, ==
+not x
+and
+or      
+lambda
+EOF
