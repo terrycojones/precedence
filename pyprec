@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat<<'EOF'
+exec cat<<'EOF'
 (exprs...), [exprs...], {key:datum...}, `exprs...`
 x[index], x[index:index], x(arguments...), x.attribute
 **

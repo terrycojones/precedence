@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat <<EOT
+exec cat <<EOT
 Class  Assoc   Operator(s)
 =====================================================
 1      L to R  . []
